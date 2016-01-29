@@ -1,0 +1,52 @@
+2015-09-21 14:08:49 [com.core.sgip.client.SGIPClient]-[DEBUG] ********* nio socket connect success **********
+2015-09-21 14:08:49 [com.core.sgip.client.SGIPClient]-[DEBUG] ****************nio socket into writable ********
+2015-09-21 14:08:49 [com.core.sgip.client.SGIPClient]-[DEBUG] *********send bind *********sgipMsg=SGIPMsg [head=SGIPMsgHead [messageLength=61, commandId=1, sourceNodeNumber=3073100000, commandGenerateDate=921140849, commandNumber=0], command=com.core.sgip.body.command.Bind@7dba1c47]
+2015-09-21 14:09:54 [com.core.sgip.client.SGIPClient]-[DEBUG] ****************nio socket into readable ********
+2015-09-21 14:09:54 [com.core.sgip.client.SGIPClient]-[DEBUG] *********end receive bindResp*********returnMsg=SGIPMsg [head=null, command=null]
+2015-09-21 14:09:54 [com.core.sgip.client.SGIPClient]-[ERROR] Error
+java.lang.NullPointerException
+	at com.core.sgip.client.SGIPClient.headKey(SGIPClient.java:173)
+	at com.core.sgip.client.SGIPClient.startNIOCommunication(SGIPClient.java:308)
+	at com.core.sgip.client.SGIPClient.startNioCommu(SGIPClient.java:112)
+	at com.core.sgip.client.SGIPClient.sendMsg(SGIPClient.java:88)
+	at com.core.sgip.client.SGIPClient.main(SGIPClient.java:511)
+2015-09-21 14:09:54 [com.core.sgip.client.SGIPClient]-[ERROR] Error
+java.lang.NullPointerException
+	at com.core.sgip.client.SGIPClient.headKey(SGIPClient.java:173)
+	at com.core.sgip.client.SGIPClient.startNIOCommunication(SGIPClient.java:308)
+	at com.core.sgip.client.SGIPClient.startNioCommu(SGIPClient.java:112)
+	at com.core.sgip.client.SGIPClient.sendMsg(SGIPClient.java:88)
+	at com.core.sgip.client.SGIPClient.main(SGIPClient.java:511)
+2015-09-21 14:09:54 [com.core.sgip.client.SGIPClient]-[ERROR] Error
+java.lang.NullPointerException
+	at com.core.sgip.client.SGIPClient.headKey(SGIPClient.java:173)
+	at com.core.sgip.client.SGIPClient.startNIOCommunication(SGIPClient.java:308)
+	at com.core.sgip.client.SGIPClient.startNioCommu(SGIPClient.java:112)
+	at com.core.sgip.client.SGIPClient.sendMsg(SGIPClient.java:88)
+	at com.core.sgip.client.SGIPClient.main(SGIPClient.java:511)
+2015-09-21 14:11:43 [com.core.sgip.client.SGIPClient]-[DEBUG] ********* nio socket connect success **********
+2015-09-21 14:11:43 [com.core.sgip.client.SGIPClient]-[DEBUG] ****************nio socket into writable ********
+2015-09-21 14:11:43 [com.core.sgip.client.SGIPClient]-[DEBUG] *********send bind *********sgipMsg=SGIPMsg [head=SGIPMsgHead [messageLength=61, commandId=1, sourceNodeNumber=3073100000, commandGenerateDate=921141143, commandNumber=0], command=com.core.sgip.body.command.Bind@4596b9cd]
+2015-09-21 14:12:48 [com.core.sgip.client.SGIPClient]-[DEBUG] ****************nio socket into readable ********
+2015-09-21 14:12:48 [com.core.sgip.client.SGIPClient]-[DEBUG] *********end receive bindResp*********returnMsg=SGIPMsg [head=null, command=null]
+2015-09-21 14:12:48 [com.core.sgip.client.SGIPClient]-[ERROR] Error
+java.lang.NullPointerException
+	at com.core.sgip.client.SGIPClient.headKey(SGIPClient.java:174)
+	at com.core.sgip.client.SGIPClient.startNIOCommunication(SGIPClient.java:309)
+	at com.core.sgip.client.SGIPClient.startNioCommu(SGIPClient.java:112)
+	at com.core.sgip.client.SGIPClient.sendMsg(SGIPClient.java:88)
+	at com.core.sgip.client.SGIPClient.main(SGIPClient.java:512)
+2015-09-21 14:12:48 [com.core.sgip.client.SGIPClient]-[ERROR] Error
+java.lang.NullPointerException
+	at com.core.sgip.client.SGIPClient.headKey(SGIPClient.java:174)
+	at com.core.sgip.client.SGIPClient.startNIOCommunication(SGIPClient.java:309)
+	at com.core.sgip.client.SGIPClient.startNioCommu(SGIPClient.java:112)
+	at com.core.sgip.client.SGIPClient.sendMsg(SGIPClient.java:88)
+	at com.core.sgip.client.SGIPClient.main(SGIPClient.java:512)
+2015-09-21 14:12:48 [com.core.sgip.client.SGIPClient]-[ERROR] Error
+java.lang.NullPointerException
+	at com.core.sgip.client.SGIPClient.headKey(SGIPClient.java:174)
+	at com.core.sgip.client.SGIPClient.startNIOCommunication(SGIPClient.java:309)
+	at com.core.sgip.client.SGIPClient.startNioCommu(SGIPClient.java:112)
+	at com.core.sgip.client.SGIPClient.sendMsg(SGIPClient.java:88)
+	at com.core.sgip.client.SGIPClient.main(SGIPClient.java:512)

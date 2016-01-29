@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/com/core/sgip/client/SGIPClient.java=UTF-8
+encoding//src/com/core/sgip/head/SGIPMsgHead.java=UTF-8
+encoding//src/com/core/sgip/server/ConnectSocketHandler.java=UTF-8
